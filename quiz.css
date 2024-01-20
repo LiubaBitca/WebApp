@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img2.jpg'); /* Replace with the correct path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat or another suitable font */
+}
+
+.quiz-container {
+    /* Quiz container styles */
+}
+
+/* Add additional styles as needed */

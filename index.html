@@ -1,0 +1,37 @@
+<!-- register.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Web App - Register</title>
+    <link rel="stylesheet" href="body.css">
+    <!-- Add any additional stylesheets or scripts here -->
+</head>
+<body>
+
+<div class="quiz-container">
+    <h2>General Knowledge Quiz</h2>
+    <p>Welcome! Please register to start participating in quizzes.</p>
+
+    <form action="register_process.php" method="post">
+        <!-- Your input fields and other form elements go here -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <!-- Add other fields as needed -->
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p>Already have an account? <a href="login.html">Login here</a>.</p>
+</div>
+
+</body>
+</html>
